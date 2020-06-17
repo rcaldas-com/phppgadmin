@@ -1,6 +1,6 @@
 # phpphadmin docker image
 
-A very simple phppgadmin docker image that uses the latest official release (7.12.0+) and runs on PHP 7 with Alpine.
+A very simple phppgadmin docker image that uses the latest official release (7.12.1) and runs on PHP 7 with Alpine.
 
 ## Usage
 

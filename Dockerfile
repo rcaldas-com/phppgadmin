@@ -1,14 +1,8 @@
-#
-# A very basic phppgadmin docker image
-#
-
 FROM php:7-alpine
 
-LABEL description="A very basic phppgadmin docker image"
-LABEL maintainer="andersevenrud@gmail.com"
-LABEL version="7.12.0"
+LABEL maintainer="RCaldas <docker@rcaldas.com>"
 
-ARG PGADMIN_VERSION=7.12.0
+ARG PGADMIN_VERSION=7.12.1
 
 ENV PGADMIN_NAME pgadmin
 ENV PGADMIN_HOSTNAME localhost
